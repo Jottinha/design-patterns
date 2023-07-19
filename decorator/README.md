@@ -1,9 +1,9 @@
 # DECORATOR
 
-O padrão de projeto Decorator permite adicionar comportamentos a um objeto dinamicamente, ou seja, o objeto receberá comportamentos e valores diferentes em tempo de execução.
+O padrão de projeto Decorator permite adicionar comportamentos a um objeto dinamicamente, ou seja, o objeto receberá comportamentos e valores diferentes em tempo de **execução**.
 Para entender como isso funciona, vamos ver um problema em que podemos usar esse padrão de projeto.
 
-Problema:
+## Problema
 
 Imagine que você está criando um sistema para uma pizzaria em que, ao fazer o pedido de uma pizza, o cliente pode escolher coberturas extras como Pepperoni, queijo e cogumelo. Obviamente, cada cobertura tem um valor diferente que deve ser adicionado ao valor total da pizza, e na descrição do pedido deve conter qual é a cobertura extra escolhida.
 
@@ -47,8 +47,8 @@ Primeiro precisamos definir um objeto principal que nós queremos que tenha comp
 </div>
 (Criamos uma interface para ficar padronizado os metodos que toda pizza deve ter, descrição e valor).
 
-
-Agora precisamos criar uma clase **decorator** para servir como base para todos os recheios que forem adicionados, nomeamos essa classe como **PizzaDecorator**.
+<p></p> 
+Agora precisamos criar uma clase decorator para servir como base para todos os recheios que forem adicionados, nomeamos essa classe como PizzaDecorator.
 <div>
   <img  src="https://github.com/Jottinha/design-patterns/assets/69482936/f6b7191e-afd3-4470-aef1-6307b715d5d4" page"  width="600"  height="300">
 </div>
@@ -94,7 +94,7 @@ A descrição e o custo da pizza vão ser adicionados de forma dinamica.
 Dessa forma, nosso projeto conseguira acrescentar funcionalidades ao objeto durante a execução.
 Sem contar que o codigo continuará simples e facil de implementar novas funcionalidades com o tempo.
 
-Caso queira entender melhor no codigo acesse o codigo que esta junto a esse readme.
+Caso queira entender melhor e testar no codigo faz clone do projeto.
 
 ... 
 
