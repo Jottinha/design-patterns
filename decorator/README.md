@@ -94,8 +94,12 @@ A descrição e o custo da pizza vão ser adicionados de forma dinamica.
 Dessa forma, nosso projeto conseguira acrescentar funcionalidades ao objeto durante a execução.
 Sem contar que o codigo continuará simples e facil de implementar novas funcionalidades com o tempo.
 
-Caso queira entender melhor e testar no codigo faz clone do projeto.
+Caso queira entender melhor e testar no codigo faz clone do projeto que esta em Java.
 
-... 
+## Observações
 
-🏗️🏗️🏗️ Em construção
+Esse readme foi criado para auxiliar meus estudos sobre os padrões de projetos, caso queira ler os sites que consultei para entender melhor sobre o **Decorator** acesse eles logo abaixo:
+
+https://refactoring.guru/pt-br/design-patterns/decorator
+
+https://www.devmedia.com.br/padrao-de-projeto-decorator-em-java/26238
