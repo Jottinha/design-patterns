@@ -1,4 +1,4 @@
-# design-patterns
+# Design-patterns
 
 Developing explanations and examples on Design Patterns 
 
